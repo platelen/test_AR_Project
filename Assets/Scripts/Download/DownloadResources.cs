@@ -25,7 +25,7 @@ namespace Download
             {
                 // Изображение успешно загружено
                 Texture2D texture = wwwImage.texture;
-                _setDownloadedResources.ImageA.texture = texture; // Устанавливаем текстуру в компонент RawImage
+                //_setDownloadedResources.ImageA.texture = texture; // Устанавливаем текстуру в компонент RawImage
                 Debug.Log("Текстура загружена!");
             }
 
